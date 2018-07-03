@@ -18,7 +18,7 @@ img{
   width:100%;
   height:auto;
 }
-.main img{
+img.main{
     width:auto;
     display:inline;
 h1, h2, h3 {
