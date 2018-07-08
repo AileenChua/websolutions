@@ -128,6 +128,9 @@ section#imgQuotes{
   align-items: center;
   display: flex;
 }
+.group p {
+  padding:0;
+}
 .circle{
   width: 150px;
   height: 150px;
