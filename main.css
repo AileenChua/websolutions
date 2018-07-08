@@ -120,6 +120,44 @@ button:hover{
   color:#333;
   padding:2em;
 }
+/* Feedback */
+.feedback{
+  background: white;
+  color: black;
+  border-top: 1px solid gray;
+}
+section#imgQuotes{
+  background: white;
+  color: black;
+  font-size: 0.85em;
+  display: grid;
+  grid-template-columns: 34% 34% 32%;
+  text-align: center;
+  padding: 0 20px 20px;
+}
+.group{
+  flex-flow: column;
+  align-items: center;
+  display: flex;
+}
+.circle{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid #271f1f;
+}
+.group:first-child .circle{
+  background-image: url("../woman.jpg");
+  background-size: cover;
+}
+.group:nth-child(2) .circle{
+  background-image: url("../man1.jpg");
+  background-size: cover;
+}
+.group:nth-child(3) .circle{
+  background-image: url("../man.jpg");
+  background-size: cover;
+}
 /*Section D*/
 
 #section-d .box{
