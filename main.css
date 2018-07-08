@@ -67,18 +67,6 @@ button:hover{
   transform: scale(1.1);
   transition:0.1s;
 }
-
-
-/* #showcase .bg-image{
-  position: absolute;
-  background:#333 url("file:///Users/Marisol/Downloads/codes-coding-computer-247791.jpg");
-  background-positon:center;
-  background-repeat: no-repeat;
-  background-size:cover;
-  width:100%;
-  height:450px;
-  opacity: 0.4;
-} */
 #showcase h1{
   padding-top:100px;
   padding-bottom: 0;
@@ -147,15 +135,15 @@ section#imgQuotes{
   border: 1px solid #271f1f;
 }
 .group:first-child .circle{
-  background-image: url("../woman.jpg");
+  background-image: url("woman.jpg");
   background-size: cover;
 }
 .group:nth-child(2) .circle{
-  background-image: url("../man1.jpg");
+  background-image: url("man1.jpg");
   background-size: cover;
 }
 .group:nth-child(3) .circle{
-  background-image: url("../man.jpg");
+  background-image: url("man.jpg");
   background-size: cover;
 }
 /*Section D*/
