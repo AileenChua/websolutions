@@ -178,6 +178,9 @@ section#imgQuotes{
       font-weight: 300;
       line-height: 1.2;
 }
+  p {
+      padding: 1em 0.5em 2em;
+}
 section#imgQuotes {
   grid-template-rows: 34% 34% 32%;
   grid-template-columns: auto;
